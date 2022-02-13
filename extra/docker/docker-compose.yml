@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  gvg-mongodb:
+    image: mongo:4.4.11
+    ports:
+      - 127.0.0.1:27017:27017
+    volumes:
+      - ~/volumes/gvg_hip/mongodb/:/data/db/
