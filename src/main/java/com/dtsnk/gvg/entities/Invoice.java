@@ -9,6 +9,7 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.time.LocalDateTime;
+import javax.validation.constraints.*;
 
 @Setter
 @Getter
@@ -16,6 +17,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Invoice {
+    @Size(min = 6, max = 50)
     @Id
     private String id;
     private int number;
@@ -26,6 +28,8 @@ public class Invoice {
     private Order order;
     private PaymentMethod paymentMethod;
     private boolean installments;
+    @NotBlank
+    @Pattern(regexp = "IT\\d{2}[ ][a-zA-Z]\\d{3}[ ]\\d{4}[ ]\\d{4}[ ]\\d{4}[ ]\\d{4}[ ]\\d{3}|IT\\d{2}[a-zA-Z]\\d{22}")
     private String iban;
 
 }
