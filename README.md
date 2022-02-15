@@ -8,7 +8,7 @@ Nell'ambito della transizione digitale, GVG decide di dire addio al blocchetto c
 di un registro elettronico delle fatture emesse. Tramite questo programma è possibile creare fatture, inviarle ai
 clienti e conservarle a norma di legge.
 
-Quando un cliente invia un ordine di acquisto Ortogoloso prepara la merce per la consegna ed emette una fattura con il
+Quando un cliente invia un ordine di acquisto GVG prepara la merce per la consegna ed emette una fattura con il
 dettaglio dei beni richiesti, il totale da pagare e gli estremi per il pagamento. La fattura è un documento obbligatorio
 per legge e riporta:
 
@@ -26,7 +26,7 @@ per legge e riporta:
 
 * Maven
 * Java17
-* MongoDb (A db dump can be found in extra/)
+* MongoDb (A db dump can be found in extra/db)
   ### Use docker compose to install/configure mongodb with Docker
   Open a terminal and move to ..extra/docker directory
   > docker-compose up

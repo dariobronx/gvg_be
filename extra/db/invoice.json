@@ -1,0 +1,241 @@
+[{
+  "_id": "12345-2022",
+  "number": 12345,
+  "year": 2022,
+  "sellerUser": {
+    "name": "Angus Young",
+    "piva": "pivaangusyoung123"
+  },
+  "buyerUser": {
+    "name": "Brian Johnson",
+    "piva": "pivbrianjohnson123"
+  },
+  "emissionDate": {
+    "$date": "2022-02-14T21:32:02.491Z"
+  },
+  "order": {
+    "items": [
+      {
+        "product": {
+          "name": "product_01",
+          "price": 11200,
+          "iva": 22,
+          "installments": false
+        },
+        "pieces": 3,
+        "expense": 33600,
+        "ivaExpense": 7392,
+        "totalExpense": 40992
+      },
+      {
+        "product": {
+          "name": "product_02",
+          "price": 50000,
+          "iva": 10,
+          "installments": true
+        },
+        "pieces": 6,
+        "expense": 67200,
+        "ivaExpense": 14784,
+        "totalExpense": 122976
+      },
+      {
+        "product": {
+          "name": "product_03",
+          "price": 15000,
+          "iva": 22,
+          "installments": false
+        },
+        "pieces": 1,
+        "expense": 33600,
+        "ivaExpense": 7392,
+        "totalExpense": 40992
+      }
+    ],
+    "expense": 100000,
+    "iva": 22000
+  },
+  "paymentMethod": "CREDIT_CARD",
+  "installments": false,
+  "_class": "com.dtsnk.gvg.entities.Invoice"
+},{
+  "_id": "1234-2022",
+  "number": 1234,
+  "year": 2022,
+  "sellerUser": {
+    "name": "Angus Young",
+    "piva": "pivaangusyoung123"
+  },
+  "buyerUser": {
+    "name": "Brian Johnson",
+    "piva": "pivbrianjohnson123"
+  },
+  "emissionDate": {
+    "$date": "2022-02-14T21:32:02.491Z"
+  },
+  "order": {
+    "items": [
+      {
+        "product": {
+          "name": "product_01",
+          "price": 11200,
+          "iva": 22,
+          "installments": false
+        },
+        "pieces": 3,
+        "expense": 33600,
+        "ivaExpense": 7392,
+        "totalExpense": 40992
+      },
+      {
+        "product": {
+          "name": "product_02",
+          "price": 50000,
+          "iva": 10,
+          "installments": true
+        },
+        "pieces": 6,
+        "expense": 67200,
+        "ivaExpense": 14784,
+        "totalExpense": 122976
+      },
+      {
+        "product": {
+          "name": "product_03",
+          "price": 15000,
+          "iva": 22,
+          "installments": false
+        },
+        "pieces": 1,
+        "expense": 33600,
+        "ivaExpense": 7392,
+        "totalExpense": 40992
+      }
+    ],
+    "expense": 100000,
+    "iva": 22000
+  },
+  "paymentMethod": "CREDIT_CARD",
+  "installments": false,
+  "_class": "com.dtsnk.gvg.entities.Invoice"
+},{
+  "_id": "1234567-2022",
+  "number": 1234567,
+  "year": 2022,
+  "sellerUser": {
+    "name": "Angus Young",
+    "piva": "pivaangusyoung123"
+  },
+  "buyerUser": {
+    "name": "Brian Johnson",
+    "piva": "pivbrianjohnson123"
+  },
+  "emissionDate": {
+    "$date": "2022-02-14T21:32:02.491Z"
+  },
+  "order": {
+    "items": [
+      {
+        "product": {
+          "name": "product_01",
+          "price": 11200,
+          "iva": 22,
+          "installments": false
+        },
+        "pieces": 3,
+        "expense": 33600,
+        "ivaExpense": 7392,
+        "totalExpense": 40992
+      },
+      {
+        "product": {
+          "name": "product_02",
+          "price": 50000,
+          "iva": 10,
+          "installments": true
+        },
+        "pieces": 6,
+        "expense": 67200,
+        "ivaExpense": 14784,
+        "totalExpense": 122976
+      },
+      {
+        "product": {
+          "name": "product_03",
+          "price": 15000,
+          "iva": 22,
+          "installments": false
+        },
+        "pieces": 1,
+        "expense": 33600,
+        "ivaExpense": 7392,
+        "totalExpense": 40992
+      }
+    ],
+    "expense": 100000,
+    "iva": 22000
+  },
+  "paymentMethod": "CREDIT_CARD",
+  "installments": false,
+  "_class": "com.dtsnk.gvg.entities.Invoice"
+},{
+  "_id": "12345678-2022",
+  "number": 12345678,
+  "year": 2022,
+  "sellerUser": {
+    "name": "Angus Young",
+    "piva": "pivaangusyoung123"
+  },
+  "buyerUser": {
+    "name": "Brian Johnson",
+    "piva": "pivbrianjohnson123"
+  },
+  "emissionDate": {
+    "$date": "2022-02-14T21:32:02.491Z"
+  },
+  "order": {
+    "items": [
+      {
+        "product": {
+          "name": "product_01",
+          "price": 11200,
+          "iva": 22,
+          "installments": false
+        },
+        "pieces": 3,
+        "expense": 33600,
+        "ivaExpense": 7392,
+        "totalExpense": 40992
+      },
+      {
+        "product": {
+          "name": "product_02",
+          "price": 50000,
+          "iva": 10,
+          "installments": true
+        },
+        "pieces": 6,
+        "expense": 67200,
+        "ivaExpense": 14784,
+        "totalExpense": 122976
+      },
+      {
+        "product": {
+          "name": "product_03",
+          "price": 15000,
+          "iva": 22,
+          "installments": false
+        },
+        "pieces": 1,
+        "expense": 33600,
+        "ivaExpense": 7392,
+        "totalExpense": 40992
+      }
+    ],
+    "expense": 100000,
+    "iva": 22000
+  },
+  "paymentMethod": "CREDIT_CARD",
+  "installments": false,
+  "_class": "com.dtsnk.gvg.entities.Invoice"
+}]

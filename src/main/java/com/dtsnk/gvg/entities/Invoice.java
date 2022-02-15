@@ -28,8 +28,7 @@ public class Invoice {
     private Order order;
     private PaymentMethod paymentMethod;
     private boolean installments;
-    @NotBlank
-    @Pattern(regexp = "IT\\d{2}[ ][a-zA-Z]\\d{3}[ ]\\d{4}[ ]\\d{4}[ ]\\d{4}[ ]\\d{4}[ ]\\d{3}|IT\\d{2}[a-zA-Z]\\d{22}")
+//    @Pattern(regexp = "IT\\d{2}[ ][a-zA-Z]\\d{3}[ ]\\d{4}[ ]\\d{4}[ ]\\d{4}[ ]\\d{4}[ ]\\d{3}|IT\\d{2}[a-zA-Z]\\d{22}")
     private String iban;
 
 }
